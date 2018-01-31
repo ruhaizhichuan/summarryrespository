@@ -523,7 +523,4 @@ public class DateUtil {
 //		 System.out.println("获取上周日日期:" + getPreviousWeekSunday());
 //		
 //	}
-	
-	
-
 }
