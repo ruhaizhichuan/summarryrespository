@@ -6,7 +6,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class ValidatorUtil {
-	  
+    
     /** 
      * 判断是否为浮点数或者整数 
      * @param str 

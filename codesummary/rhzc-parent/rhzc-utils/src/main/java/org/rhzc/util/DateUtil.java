@@ -29,14 +29,15 @@ public class DateUtil {
 
 	public static String getCurrentTime(String style) {
 
-		/*if (StringUtils.isEmpty(style)) {
+		if(style == null || "".equals(style))
+		{
 			style = STYLE_1;
 		}
-		
-		if(Stringu)*/
 
 		SimpleDateFormat sdf = new SimpleDateFormat(style);
+		
 		String str = sdf.format(new Date());
+		
 		return str;
 	}
 
