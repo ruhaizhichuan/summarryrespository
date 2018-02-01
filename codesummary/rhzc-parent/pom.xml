@@ -6,5 +6,6 @@
   <packaging>pom</packaging>
   <modules>
   	<module>rhzc-utils</module>
+  	<module>rhzc-codesummary</module>
   </modules>
 </project>
